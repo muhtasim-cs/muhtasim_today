@@ -33,6 +33,11 @@ backend/
 │   ├── webhooks/                 # Zapier & payment gateway integration webhooks
 │   ├── common/                   # Global filters, interceptors, decorators & utility functions
 │   └── database/                 # Prisma client lifecycle management
+├── database/                     # Enterprise SQL DDL Schemas, Seeders & Handoff Guide
+│   ├── grambandhan_unified_schema.sql # 100% Unified SQL DDL Schema (16 Tables)
+│   ├── grambandhan_schema.sql    # Modular entity table definitions
+│   ├── DATABASE_HANDOFF.md       # Full architecture & integrity specification
+│   └── seed.js                   # Automated PostgreSQL database seeder
 ├── prisma/                       # Prisma Schema, Migrations & Database Seeders
 │   ├── schema.prisma             # Full relational schema (16+ interconnected tables)
 │   └── seed.ts                   # Realistic test data (Admin, Farmers, Projects, Deals)
